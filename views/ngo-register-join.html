@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Gcare</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/vendor/bootstrap/bootstrap-5.1.3.min.css" />
+    <link rel="stylesheet" href="/css/modal-video.min.css" />
+    <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery.css" />
+    <link rel="stylesheet" href="/vendor/datatables/jquery.dataTables.min.css" />
+    <!-- The reference join form loads Bootstrap 4.0.0 after Bootstrap 5 -->
+    <link rel="stylesheet" href="/vendor/bootstrap/bootstrap-4.0.0.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <section id="bannerpage">
+      <div class="nav-wrapper menu container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-light bg-light">
+          <div id="mySidenav" class="sidenav" style="width: 0">
+            <a class="closebtn" role="button" tabindex="0">×</a><a href="/">Home </a><a href="/team">Team </a
+            ><a href="/business">Business </a><a href="/centers">Centers </a><a href="/regions">Regions </a
+            ><a href="/gallery">Gallery </a><a href="/ngo-register">NGO Register </a>
+          </div>
+          <div class="mobile-menu-wrapper d-flex">
+            <div class="mobile-menu d-block d-sm-none">
+              <span class="bar" role="button" aria-label="Open menu"><img src="/assets/black-bar.png" alt="" /></span>
+              <div class="logo">
+                <a class="navbar-brand" href="/"><img src="/assets/logo.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="logo d-none d-sm-block">
+            <a class="navbar-brand" href="/"><img src="/assets/logo.png" alt="" /></a>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/#about-us">About us</a></li>
+              <li class="nav-item"><a class="nav-link" href="/team">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="/business">Business</a></li>
+              <li class="nav-item"><a class="nav-link" href="/centers">Centers</a></li>
+              <li class="nav-item"><a class="nav-link" href="/regions">Regions</a></li>
+              <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link active" href="/ngo-register">NGO Register</a></li>
+              <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="formBanner">
+        <div class="container">
+          <div class="row formHead">
+            <h3>G-Care Council</h3>
+            <h3>Membership Application Form</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="toast-msg-submit toastSubmit">
+      <div
+        id="toastSubmit"
+        class="toast align-items-center toastMsg text-white bg-danger border-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="toast-body">Please Fill The Details</div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <div class="toast-msg-submit toastSubmit">
+      <div
+        id="successtoast"
+        class="toast align-items-center toastMsg text-white bg-success border-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="toast-body">Data added successfully</div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <form id="ngoForm" novalidate="">
+        <div class="aboutForm row aboutOrg">
+          <h5>About Organization</h5>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="nameOfOrganisation" class="form-label labelName required-field"
+                >Name of the Organization/Trust/Society</label
+              ><input
+                type="text"
+                name="Name_Of_Organisation"
+                class="form-control inputBox"
+                id="nameOfOrganisation"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="registrationNumber" class="form-label labelName required-field">Registration Number</label
+              ><input
+                type="text"
+                name="Registration_Number"
+                class="form-control inputBox"
+                id="registrationNumber"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="dateOfRegistration" class="form-label labelName required-field">Date of Registration</label
+              ><input
+                type="date"
+                name="Date_of_Registration"
+                class="form-control inputBox"
+                id="dateOfRegistration"
+                placeholder="Enter"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="yearOfEstablishment" class="form-label labelName required-field">Year of Establishment</label
+              ><input
+                type="text"
+                name="Year_Of_Establishment"
+                class="form-control inputBox"
+                id="yearOfEstablishment"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="registrationAct" class="form-label labelName required-field"
+                >Registration under which Act</label
+              ><input
+                type="text"
+                name="Registration_under_which_Act"
+                class="form-control inputBox"
+                id="registrationAct"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="nitiAyogRegNo" class="form-label labelName required-field"
+                >NITI-AYOG Registration No. &amp; Date</label
+              ><input
+                type="text"
+                name="NITI-AYOG_Registration_No_Date"
+                class="form-control inputBox"
+                id="nitiAyogRegNo"
+                placeholder="Enter"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="aboutForm row">
+          <h5>Certification Details</h5>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="gstNo" class="form-label labelName">GST Number, if available</label
+              ><input
+                type="text"
+                name="GST_Number_if_available"
+                class="form-control inputBox"
+                id="gstNo"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="12aCertificate" class="form-label labelName required-field"
+                >12 A Certificate Details, if available</label
+              >
+              <div><input class="form-control inputBox" name="12aCertificate" type="file" id="12aCertificate" /></div>
+            </div>
+            <div class="">
+              <label for="msmeCertificate" class="form-label labelName required-field"
+                >MSME Certification, if any</label
+              >
+              <div><input class="form-control inputBox" name="msmeCertificate" type="file" id="msmeCertificate" /></div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="gCertificate" class="form-label labelName required-field"
+                >80 G Certificate from Income Tax Dept.</label
+              >
+              <div>
+                <input class="form-control inputBox" name="Certificate_From_Income_Tax" type="file" id="gCertificate" />
+              </div>
+            </div>
+            <div class="">
+              <label for="fcraCertificate" class="form-label labelName required-field"
+                >FCRA Certification details, if available</label
+              >
+              <div><input class="form-control inputBox" name="fcraCertificate" type="file" id="fcraCertificate" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="aboutForm row">
+          <h5>Register Postal Address</h5>
+          <div class="">
+            <label for="street" class="form-label labelName">Street</label
+            ><input type="text" name="Street" class="form-control inputLong" id="street" placeholder="Enter" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="state" class="form-label labelName">State</label
+              ><input type="text" name="State" class="form-control inputBox" id="state" placeholder="Enter" />
+            </div>
+            <div class="">
+              <label for="pincode" class="form-label labelName">Pincode</label
+              ><input type="text" name="Pincode" class="form-control inputBox" id="pincode" placeholder="Enter" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="country" class="form-label labelName">Country</label
+              ><input type="text" name="Country" class="form-control inputBox" id="country" placeholder="Enter" />
+            </div>
+          </div>
+        </div>
+        <div class="aboutForm row">
+          <h5>Contact Details</h5>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="chiefFunctionary" class="form-label labelName required-field"
+                >Name of the Chief Functionary</label
+              ><input
+                type="text"
+                name="Name_of_the_Chief_Functionary"
+                class="form-control inputBox"
+                id="chiefFunctionary"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="email" class="form-label labelName required-field">Email</label
+              ><input type="email" name="Email" class="form-control inputBox" id="email" placeholder="Enter" />
+            </div>
+            <div class="">
+              <label for="detailAboutMembers" class="form-label labelName"
+                >Details about the other Members of your Organization/Trust/Society</label
+              ><input
+                type="text"
+                name="Members_of_your_Organization"
+                class="form-control inputBox"
+                id="detailAboutMembers"
+                placeholder="Enter"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="designation" class="form-label labelName">Designation</label
+              ><input
+                type="text"
+                name="designation"
+                class="form-control inputBox"
+                id="designation"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="phone" class="form-label labelName">Phone</label
+              ><input
+                type="text"
+                name="Phone"
+                class="form-control inputBox"
+                id="phone"
+                placeholder="Enter"
+                minlength="10"
+                maxlength="10"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="aboutForm row">
+          <h5>SPOC Details</h5>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="nameOfSpoc" class="form-label labelName required-field"
+                >Name of the SPOC person to liaison with GCC</label
+              ><input
+                type="text"
+                name="Name_of_the_SPOC"
+                class="form-control inputBox"
+                id="nameOfSpoc"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="spocMobileNumber" class="form-label labelName required-field">Mobile Number</label
+              ><input
+                type="text"
+                name="Mobile_Number"
+                class="form-control inputBox"
+                id="spocMobileNumber"
+                placeholder="Enter"
+                minlength="10"
+                maxlength="13"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="spocEmail" class="form-label labelName required-field">Email ID</label
+              ><input type="email" name="Email_ID" class="form-control inputBox" id="spocEmail" placeholder="Enter" />
+            </div>
+            <div class="">
+              <label for="website" class="form-label labelName">Website</label
+              ><input type="text" name="Website" class="form-control inputBox" id="website" placeholder="Enter" />
+            </div>
+          </div>
+          <div class="">
+            <label for="introAboutNgo" class="form-label labelName">Brief Introduction about your NGO</label
+            ><textarea
+              class="form-control inputLong2"
+              name="Brief_Introduction"
+              id="introAboutNgo"
+              placeholder="Enter"
+            ></textarea>
+          </div>
+          <div class="">
+            <label for="noteOnPrevProject" class="form-label labelName"
+              >Give a note on your previous projects and your role in the project implementation</label
+            ><textarea
+              class="form-control inputLong3"
+              name="project_implementation"
+              id="noteOnPrevProject"
+              placeholder="Enter"
+            ></textarea>
+          </div>
+          <div class="">
+            <label for="ongoingProject" class="form-label labelName">Details about the on-going projects, if any</label
+            ><textarea
+              class="form-control inputLong4"
+              name="Details_about_the_ongoing_projects"
+              id="ongoingProject"
+              placeholder="Enter"
+            ></textarea>
+          </div>
+        </div>
+        <div class="aboutForm row">
+          <h5>Operational Area Details</h5>
+          <div class="">
+            <label for="thematicArea" class="form-label labelName">Thematic Area</label
+            ><input
+              type="text"
+              name="Thematic_Area"
+              class="form-control inputLong"
+              id="thematicArea"
+              placeholder="Enter"
+            />
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="areaOfOperation" class="form-label labelName">Area of operation (Block/District)</label
+              ><input
+                type="text"
+                name="Area_of_operation"
+                class="form-control inputBox"
+                id="areaOfOperation"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="district" class="form-label labelName">District</label
+              ><input type="text" name="District" class="form-control inputBox" id="district" placeholder="Enter" />
+            </div>
+            <div class="">
+              <label for="block" class="form-label labelName">Block</label
+              ><input type="text" name="Block" class="form-control inputBox" id="block" placeholder="Enter" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <label for="operationalState" class="form-label labelName">State</label
+              ><input
+                type="text"
+                name="State"
+                class="form-control inputBox"
+                id="operationalState"
+                placeholder="Enter"
+              />
+            </div>
+            <div class="">
+              <label for="taluk" class="form-label labelName">Taluk</label
+              ><input type="text" name="Taluk" class="form-control inputBox" id="taluk" placeholder="Enter" />
+            </div>
+          </div>
+        </div>
+        <div class="aboutForm row declaration">
+          <h5>Declaration</h5>
+          <p>
+            We declare that the information furnished above are true and correct to the best of our knowledge and belief
+            and we agreed to abide by the rules and regulations of the G-Care Council, mentioned in the terms and
+            conditions sheet.
+          </p>
+          <div class="form-check privacyCheck">
+            <input class="form-check-input" type="checkbox" name="chkBox" id="chkBox" value="" />
+            <div>
+              <label class="form-check-label" for="chkBox"
+                >I agree to the G-Care <a href="/privacy-policy">Privacy Policy.</a></label
+              >
+            </div>
+            <div id="chkboxError"></div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary submitBtn" id="submitBtn">Submit</button
+            ><a type="button" class="cancel" id="cancelLink">Cancel</a>
+          </div>
+          <p class="noteNB">
+            NB: The application should be submitted to the council along with the soft copies of the documents viz.,
+            Trust Deed, 80-G Certificate, 12-A Certificate, Pan Card, GST Certificate, MSME, NITI AYOG, FCRA,
+            Affiliation Certificates, if any with other federation, Testimonials, if any, etc.,
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="modal" id="submitModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Confirm</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"><p>Do you want to Submit ?</p></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button
+            ><button type="button" class="btn btn-primary">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="cancelModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Confirm</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"><p>Do you want to Cancel ?</p></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button
+            ><button type="button" class="btn btn-primary">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="d-none d-sm-block">
+      <div class="container footer">
+        <div class="col-lg-3 col-md-3 col-sm-4 d-lg-none" style="margin-bottom: 52px">
+          <img src="/assets/white-logo.png" alt="logo" />
+          <div class="d-flex social mt-5">
+            <a href="#"><img src="/assets/fb.png" alt="" /></a><a href="#"><img src="/assets/twitter.png" alt="" /></a
+            ><a href="#"><img src="/assets/insta.png" alt="" /></a
+            ><a href="#"><img src="/assets/linkedin.png" alt="" /></a
+            ><a href="#"><img src="/assets/yt.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-3 col-md-3 col-sm-4 d-md-none d-lg-block" style="margin-bottom: 52px">
+            <img src="/assets/white-logo.png" alt="logo" />
+            <div class="d-flex social mt-5">
+              <a href="#"><img src="/assets/fb.png" alt="" /></a><a href="#"><img src="/assets/twitter.png" alt="" /></a
+              ><a href="#"><img src="/assets/insta.png" alt="" /></a
+              ><a href="#"><img src="/assets/linkedin.png" alt="" /></a
+              ><a href="#"><img src="/assets/yt.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-3">
+            <p class="title">Quick links</p>
+            <a href="/#about-us">About us</a><a href="/business">Business</a><a href="/team">Our Teams</a
+            ><a href="/centers">Centers</a><a href="/gallery">Gallery</a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <p class="title">Legal</p>
+            <a href="/terms-and-conditions">Terms of service</a><a href="/privacy-policy">Privacy policy</a
+            ><a href="/refund-policy">Refund Policy</a>
+          </div>
+          <div class="col-lg-3 col-md-3 h-office">
+            <p class="title">Head Office</p>
+            <ul class="contactus">
+              <li>No.32/50, Red Cross Road, Indian Red Cross Society Campus, Egmore, Chennai – 600 008.</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 r-office">
+            <p class="title">Registered Office</p>
+            <ul class="contactus">
+              <li>No. 33, Gandhipuram, Opp: Govt. Hospital, Thiruvallur – 602 001</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="privacy d-flex justify-content-center">
+        <p class="copy">© 2021 – G-Care. All rights reserved.</p>
+      </div>
+    </footer>
+    <section class="d-block d-sm-none footer-mobile">
+      <div class="container">
+        <div class="row">
+          <img class="logo" src="/assets/white-logo.png" alt="" />
+          <div class="accordion" id="accordionFooter">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  <p class="title">Quick links</p>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionFooter"
+              >
+                <div class="accordion-body">
+                  <a href="/#about-us">About us</a><a href="/business">Business</a><a href="/team">Our Teams</a
+                  ><a href="/centers">Centers</a><a href="/gallery">Gallery</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <p class="title">Legal</p>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionFooter"
+              >
+                <div class="accordion-body">
+                  <a href="/terms-and-conditions">Terms of service</a><a href="/privacy-policy">Privacy policy</a
+                  ><a href="/refund-policy">Refund Policy</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="false"
+                  aria-controls="collapse4"
+                >
+                  <p class="title">Head Office</p>
+                </button>
+              </h2>
+              <div
+                id="collapse4"
+                class="accordion-collapse collapse"
+                aria-labelledby="heading4"
+                data-bs-parent="#accordionFooter"
+              >
+                <div class="accordion-body">
+                  <ul class="contactus">
+                    <li>No.32/50, Red Cross Road, Indian Red Cross Society Campus, Egmore, Chennai – 600 008.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="false"
+                  aria-controls="collapse5"
+                >
+                  <p class="title">Registered Office</p>
+                </button>
+              </h2>
+              <div
+                id="collapse5"
+                class="accordion-collapse collapse"
+                aria-labelledby="heading5"
+                data-bs-parent="#accordionFooter"
+              >
+                <div class="accordion-body">
+                  <ul class="contactus">
+                    <li>No. 33, Gandhipuram, Opp: Govt. Hospital, Thiruvallur – 602 001</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="privacy"><p class="copy">© 2021 – G-Care. All rights reserved.</p></div>
+    </section>
+    <script src="/vendor/bootstrap/bootstrap-5.1.3.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/join-form.js"></script>
+  </body>
+</html>

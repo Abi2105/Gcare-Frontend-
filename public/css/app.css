@@ -1,0 +1,9 @@
+/* Small additions for the React port only. All visual styling comes from style.css (reference). */
+#mySidenav a {
+  cursor: pointer;
+}
+label.error {
+  color: #dc3545;
+  font-size: 13px;
+  margin-top: 4px;
+}

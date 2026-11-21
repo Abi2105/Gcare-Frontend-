@@ -1,0 +1,22 @@
+﻿# This repository contains ONLY the G-Care frontend (HTML, CSS, JavaScript, images, fonts, vendor assets).
+# Allowlist approach: ignore everything, then re-include the frontend folders.
+/*
+!/.gitignore
+!/views/
+!/public/
+
+# Never commit, even if placed inside an allowed folder
+node_modules/
+storage/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+Thumbs.db
+
+# Backend / server-side files (kept locally, not part of the frontend repository):
+#   server.js, package.json, package-lock.json, data/, storage/, README.md (server docs)
