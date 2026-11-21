@@ -1,0 +1,246 @@
+{
+ "gallery": {
+  "chennai": [
+   "/assets/Chennai_images/c1.jpg",
+   "/assets/Chennai_images/c2.jpg",
+   "/assets/Chennai_images/c4.jpg",
+   "/assets/Chennai_images/c5.jpg",
+   "/assets/Chennai_images/c6.jpg",
+   "/assets/Chennai_images/c8.jpg",
+   "/assets/Chennai_images/c9.jpg",
+   "/assets/Chennai_images/c10.jpg",
+   "/assets/Chennai_images/c11.jpg",
+   "/assets/Chennai_images/c12.jpg",
+   "/assets/Chennai_images/c13.jpg",
+   "/assets/Chennai_images/c14.jpg",
+   "/assets/Chennai_images/c15.jpg",
+   "/assets/Chennai_images/c16.jpg",
+   "/assets/Chennai_images/c17.jpg",
+   "/assets/Chennai_images/c18.jpg",
+   "/assets/Chennai_images/c19.jpg",
+   "/assets/Chennai_images/c20.jpg",
+   "/assets/Chennai_images/c21.jpg",
+   "/assets/Chennai_images/c22.jpg",
+   "/assets/Chennai_images/c23.jpg",
+   "/assets/Chennai_images/c24.jpg",
+   "/assets/Chennai_images/c25.jpg",
+   "/assets/Chennai_images/c26.jpg",
+   "/assets/Chennai_images/c27.jpg",
+   "/assets/Chennai_images/c28.jpg",
+   "/assets/Chennai_images/c29.jpg",
+   "/assets/Chennai_images/c30.jpg",
+   "/assets/Chennai_images/c31.jpg",
+   "/assets/Chennai_images/c32.jpg",
+   "/assets/Chennai_images/c33.jpg",
+   "/assets/Chennai_images/c34.jpg",
+   "/assets/Chennai_images/c35.jpg"
+  ],
+  "pondicherry": [
+   "/assets/Pondicherry_images/p1.jpg",
+   "/assets/Pondicherry_images/p2.jpg",
+   "/assets/Pondicherry_images/p3.jpg",
+   "/assets/Pondicherry_images/p4.jpg",
+   "/assets/Pondicherry_images/p5.jpg",
+   "/assets/Pondicherry_images/p6.jpg",
+   "/assets/Pondicherry_images/p7.jpg",
+   "/assets/Pondicherry_images/p8.jpg",
+   "/assets/Pondicherry_images/p9.jpg",
+   "/assets/Pondicherry_images/p10.jpg",
+   "/assets/Pondicherry_images/p11.jpg",
+   "/assets/Pondicherry_images/p12.jpg",
+   "/assets/Pondicherry_images/p13.jpg",
+   "/assets/Pondicherry_images/p14.jpg",
+   "/assets/Pondicherry_images/p15.jpg",
+   "/assets/Pondicherry_images/p16.jpg",
+   "/assets/Pondicherry_images/p17.jpg",
+   "/assets/Pondicherry_images/p18.jpg",
+   "/assets/Pondicherry_images/p19.jpg",
+   "/assets/Pondicherry_images/p20.jpg",
+   "/assets/Pondicherry_images/p21.jpg",
+   "/assets/Pondicherry_images/p22.jpg",
+   "/assets/Pondicherry_images/p23.jpg",
+   "/assets/Pondicherry_images/p24.jpg",
+   "/assets/Pondicherry_images/p25.jpg",
+   "/assets/Pondicherry_images/p26.jpg",
+   "/assets/Pondicherry_images/p27.jpg",
+   "/assets/Pondicherry_images/p28.jpg",
+   "/assets/Pondicherry_images/p29.jpg",
+   "/assets/Pondicherry_images/p30.jpg",
+   "/assets/Pondicherry_images/p31.jpg",
+   "/assets/Pondicherry_images/p32.jpg",
+   "/assets/Pondicherry_images/p33.jpg",
+   "/assets/Pondicherry_images/p34.jpg",
+   "/assets/Pondicherry_images/p35.jpg",
+   "/assets/Pondicherry_images/p36.jpg",
+   "/assets/Pondicherry_images/p37.jpg",
+   "/assets/Pondicherry_images/p38.jpg",
+   "/assets/Pondicherry_images/p39.jpg",
+   "/assets/Pondicherry_images/p40.jpg",
+   "/assets/Pondicherry_images/p41.jpg",
+   "/assets/Pondicherry_images/p42.jpg",
+   "/assets/Pondicherry_images/p43.jpg",
+   "/assets/Pondicherry_images/p44.jpg",
+   "/assets/Pondicherry_images/p45.jpg",
+   "/assets/Pondicherry_images/p46.jpg",
+   "/assets/Pondicherry_images/p47.jpg",
+   "/assets/Pondicherry_images/p48.jpg",
+   "/assets/Pondicherry_images/p49.jpg",
+   "/assets/Pondicherry_images/p50.jpg",
+   "/assets/Pondicherry_images/p51.jpg",
+   "/assets/Pondicherry_images/p52.jpg",
+   "/assets/Pondicherry_images/p53.jpg",
+   "/assets/Pondicherry_images/p54.jpg",
+   "/assets/Pondicherry_images/p55.jpg",
+   "/assets/Pondicherry_images/p56.jpg",
+   "/assets/Pondicherry_images/p57.jpg",
+   "/assets/Pondicherry_images/p58.jpg",
+   "/assets/Pondicherry_images/p59.jpg",
+   "/assets/Pondicherry_images/p60.jpg",
+   "/assets/Pondicherry_images/p61.jpg",
+   "/assets/Pondicherry_images/p62.jpg",
+   "/assets/Pondicherry_images/p63.jpg",
+   "/assets/Pondicherry_images/p64.jpg",
+   "/assets/Pondicherry_images/p65.jpg",
+   "/assets/Pondicherry_images/p66.jpg",
+   "/assets/Pondicherry_images/p67.jpg",
+   "/assets/Pondicherry_images/p68.jpg",
+   "/assets/Pondicherry_images/p69.jpg",
+   "/assets/Pondicherry_images/p70.jpg",
+   "/assets/Pondicherry_images/p71.jpg",
+   "/assets/Pondicherry_images/p72.jpg",
+   "/assets/Pondicherry_images/p73.jpg",
+   "/assets/Pondicherry_images/p74.jpg",
+   "/assets/Pondicherry_images/p75.jpg"
+  ]
+ },
+ "centers": {
+  "chennai": [
+   "/assets/Chennai_images/c2.jpg",
+   "/assets/Chennai_images/c4.jpg",
+   "/assets/Chennai_images/c5.jpg",
+   "/assets/Chennai_images/c6.jpg",
+   "/assets/Chennai_images/c8.jpg",
+   "/assets/Chennai_images/c9.jpg",
+   "/assets/Chennai_images/c10.jpg",
+   "/assets/Chennai_images/c11.jpg",
+   "/assets/Chennai_images/c12.jpg",
+   "/assets/Chennai_images/c13.jpg",
+   "/assets/Chennai_images/c14.jpg",
+   "/assets/Chennai_images/c15.jpg",
+   "/assets/Chennai_images/c16.jpg",
+   "/assets/Chennai_images/c17.jpg",
+   "/assets/Chennai_images/c18.jpg",
+   "/assets/Chennai_images/c19.jpg",
+   "/assets/Chennai_images/c20.jpg",
+   "/assets/Chennai_images/c21.jpg",
+   "/assets/Chennai_images/c22.jpg",
+   "/assets/Chennai_images/c23.jpg",
+   "/assets/Chennai_images/c24.jpg",
+   "/assets/Chennai_images/c25.jpg",
+   "/assets/Chennai_images/c26.jpg",
+   "/assets/Chennai_images/c27.jpg",
+   "/assets/Chennai_images/c28.jpg",
+   "/assets/Chennai_images/c29.jpg",
+   "/assets/Chennai_images/c30.jpg",
+   "/assets/Chennai_images/c31.jpg",
+   "/assets/Chennai_images/c32.jpg",
+   "/assets/Chennai_images/c33.jpg",
+   "/assets/Chennai_images/c34.jpg",
+   "/assets/Chennai_images/c35.jpg"
+  ],
+  "pondicherry": [
+   {
+    "src": "/assets/Chennai_Centers/Centers1.jpg",
+    "name": "Metupalayam"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers2.jpg",
+    "name": "Reddiyarpalayam"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers4.jpg",
+    "name": "Nettapakkam"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers5.jpg",
+    "name": "Muthialpet"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers6.jpg",
+    "name": "Poraiyur"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers7.jpg",
+    "name": "Kosapalayam"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers8.jpg",
+    "name": "Alankuppam"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers9.jpg",
+    "name": "Duphrayapet"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers10.jpg",
+    "name": "Sulthanpet"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers11.jpg",
+    "name": "Lawspet"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers12.jpg",
+    "name": "Kodathur"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers13.jpg",
+    "name": "Kurumampet"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers14.jpg",
+    "name": "Kuruvinatham"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers15.jpg",
+    "name": "Koravallimedu"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers16.jpg",
+    "name": "Pandasozhanallur"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers17.jpg",
+    "name": "Veerampattinam"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers18.jpg",
+    "name": "Mudaliyarpet"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers19.jpg",
+    "name": "Odiyansalai"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers20.jpg",
+    "name": "Meloduthurai-Karaikal"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers21.jpg",
+    "name": "Karukankudi-karaikal"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers22.jpg",
+    "name": "Karaikalmedu-Karaikal"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers23.jpg",
+    "name": "Tr Pattinam-Karaikal"
+   },
+   {
+    "src": "/assets/Chennai_Centers/Centers24.jpg",
+    "name": "Nedungadu-Karaikal"
+   }
+  ]
+ }
+}

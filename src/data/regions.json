@@ -1,0 +1,86 @@
+[
+  {
+   "id": 1,
+   "name": "Tamil Nadu",
+   "parent_id": 0,
+   "district_coordinator": null
+  },
+  {
+   "id": 2,
+   "name": "Northern Region",
+   "parent_id": 1,
+   "district_coordinator": null
+  },
+  {
+   "id": 3,
+   "name": "Southern Region",
+   "parent_id": 1,
+   "district_coordinator": null
+  },
+  {
+   "id": 4,
+   "name": "Eastern Region",
+   "parent_id": 1,
+   "district_coordinator": null
+  },
+  {
+   "id": 5,
+   "name": "Western Region",
+   "parent_id": 1,
+   "district_coordinator": null
+  },
+  {
+   "id": 6,
+   "name": "Dindugul",
+   "parent_id": 3,
+   "district_coordinator": "Mr.Gopal"
+  },
+  {
+   "id": 7,
+   "name": "Kanniyakumari",
+   "parent_id": 2,
+   "district_coordinator": "Mrs.Amala"
+  },
+  {
+   "id": 8,
+   "name": "Madurai",
+   "parent_id": 3,
+   "district_coordinator": "Mrs.Saraswathy"
+  },
+  {
+   "id": 9,
+   "name": "Ramanadhapuram",
+   "parent_id": 4,
+   "district_coordinator": "Mr.Ganesan"
+  },
+  {
+   "id": 10,
+   "name": "Sivagangai",
+   "parent_id": 2,
+   "district_coordinator": "Mr.Subaramaniyan"
+  },
+  {
+   "id": 11,
+   "name": "Theni",
+   "parent_id": 3,
+   "district_coordinator": "Mr.Pugazhenthi"
+  },
+  {
+   "id": 12,
+   "name": "Thoothukkudi",
+   "parent_id": 5,
+   "district_coordinator": "Mr.Shankar"
+  },
+  {
+   "id": 13,
+   "name": "Tirunelveli",
+   "parent_id": 4,
+   "district_coordinator": "Mrs.Vijayakumari"
+  },
+  {
+   "id": 14,
+   "name": "Viruthu Nagar",
+   "parent_id": 4,
+   "district_coordinator": "Mr.Govindan"
+  }
+ ]
